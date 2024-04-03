@@ -1,3 +1,4 @@
+
 //sum
 const add = function (a,b){
     return a+b;
@@ -17,5 +18,4 @@ const multiply = function (a,b){
 const divide = function (a,b){
     return a/b;
 }
-
-
+ 
