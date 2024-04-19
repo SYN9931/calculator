@@ -6,7 +6,7 @@ body{
     flex-direction: column;
 }
 
-.calculator-body{
+.calculator{
     background: #1F2937;
     display: flex;
     flex-direction: column;
@@ -17,7 +17,7 @@ body{
     width: 400px;
     gap: 12px;
 }
-.screen{
+.calculator_display{
     background: #939493;
     border: 1px solid #000000;
     border-radius: 12px;
@@ -32,11 +32,8 @@ body{
     justify-content: center;
     align-items: center;
 }
-.calculator-brand{
-    display: flex;
-    /* justify-content: flex-end; */
-}
-.calculator-container{
+
+.calculator_keys{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;

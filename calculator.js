@@ -19,8 +19,14 @@ const divide = function (a,b){
     return a/b;
 }
 
-//display button click onto html screen
-const screen = document.getElementById("screen");
+//display on screen button click onto html screen
+const screen = document.getElementById("calculator_display");
 const allButtons = document.getElementsByClassName('numpad');
 
-Array.prototype.forEach.call(allButtons, (e) => e.addEventListener('click', () => screen.innerHTML += e.innerHTML));
+Array.prototype.forEach.call(allButtons, (e) => e.addEventListener('click', () => calculator_display.innerHTML += e.innerHTML));
+
+//clear everything on calculator_display
+
+function clearInput(){
+    document.getElementById("calculator_display").value="";
+};
