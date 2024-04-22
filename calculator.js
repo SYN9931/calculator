@@ -20,7 +20,7 @@ const divide = function (a,b){
 }
 
 //display on screen button click onto html screen
-const screen = document.getElementById("calculator_display");
+const screen = document.getElementsById("calculator_display");
 const allButtons = document.getElementsByClassName('numpad');
 
 Array.prototype.forEach.call(allButtons, (e) => e.addEventListener('click', () => calculator_display.innerHTML += e.innerHTML));
